@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгения Суворина](https://up.htmlacademy.ru/adaptive/21/user/1421565).
-* Наставник: `Неизвестно`.
+* Наставник: Артик Ман.
 
 ---
 
