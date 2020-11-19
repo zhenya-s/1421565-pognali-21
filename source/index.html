@@ -1,12 +1,164 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Погнали</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+  <body class="page__body">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="./img/logo_mobile.svg" width="96" height="15" alt="Логотип «Погнали»">
+       </a>
+       <nav class="main-nav">
+         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+         <div class="main-nav__wrapper">
+           <ul class="main-nav__list site-list">
+             <li class="site-list__item"><a>О сервисе</a></li>
+             <li class="site-list__item"><a>Направления</a></li>
+             <li class="site-list__item"><a>Попутчики</a></li>
+            </ul>
+            <div class="main-nav__list user-list">
+              <a class="user-list__login">Авторизация</a>
+            </div>
+            <ul class="main-nav__list contacts">
+              <li class="contacts-item"><a href="tel:8 800 555-86-28">8 800 555-86-28</a></li>
+              <li class="contacts-item"><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></li>
+            </ul>
+            <ul class="main-nav__list social">
+              <li class="social-item"><a>Vk</a></li>
+              <li class="social-item"><a>facebook</a></li>
+              <li class="social-item"><a>Instagram</a></li>
+            </ul>
+         </div>
+       </nav>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">«Погнали» — сервис для планирования путешествий и поиска попутчиков</h1>
+      <div class="tagline">
+        <p class="tagline-content">В путешествие<br>с крутыми<br>попутчиками!</p>
+      </div class="feedback-wrapper">
+      <figure class="feedback">
+        <blockquote class="feedback-content">«Лучшее приложение,<br>что я видел в жизни!»</blockquote>
+        <figcaption class="feedback-author">Мурат Эльтазин<br>главный редактор<br>газеты «гаджетлайф»</figcaption>
+      </figure>
+      </div>
+      <section class="services">
+        <div class="services-wrapper">
+          <ul class="services-list">
+            <ol class="services-item"><a>Выберите направление</a></ol>
+            <ol class="services-item"><a>Изучите идеи путешественников</a></ol>
+            <ol class="services-item"><a>Находите тех, кто похож на вас</a></ol>
+            <ol class="services-item"><a>Путешествуйте вместе!</a></ol>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <h2 class="about-title title">О сервисе</h2>
+        <p class="about-content">Любое путешествие веселее<br>с попутчиками, которые на<br>одной волне с тобой! Делитесь<br>своими идеями путешествий и<br>черпайте вдохновение в чужих.</p>
+        <p class="about-highlight">А если найдете кого-то<br>близкого по духу — скорее<br>зовите в совместный трип!</p>
+      </section>
+      <section class="directions">
+        <div class="directions-wrapper">
+          <div class="directions-about">
+            <h2 class="title">Направления</h2>
+            <p class="directions-description">Мы не продаем туры<br>и ничего не рекламируем.<br>Люди сами пишут о странах,<br>куда хотели бы отправиться<br>и чем можно там заняться.</p>
+          </div>
+          <div class="directions-thai">
+            <img src="https://via.placeholder.com/270x110" alt="Остров в Таиланде" class="directions-img"><br>
+            <p class="directions-title">Таиланд</p>
+            <p class="directions-slogan">Джунгли зовут!</p>
+            <p class="directions-stats">18321</p>
+          </div>
+          <div class="directions-france">
+            <img src="https://via.placeholder.com/270x110" alt="Улица в Париже" class="directions-img"><br>
+            <p class="directions-title">Франция</p>
+            <p class="directions-slogan">Трэ бьен, манифик!</p>
+            <p class="directions-stats">12518</p>
+          </div>
+          <div class="directions-czech">
+            <img src="https://via.placeholder.com/270x110" alt="Карлов мост в Праге" class="directions-img"><br>
+            <p class="directions-title">Чехия</p>
+            <p class="directions-slogan">Закоулки старой Европы</p>
+            <p class="directions-stats">5326</p>
+          </div>
+          <a class="button" href="catalog.html">Показать все</a>
+          </div>
+        </section>
+        <section class="companions">
+          <div class="companions-wrapper">
+            <h2 class="companion-title title">Попутчики</h2>
+            <p class="companion-description">Все мы индивидуальны и у<br>каждого свой взгляд на<br>идеальный отдых. Одному<br>нужен пляж и коктейль, а<br>другому маршрут для хайкинга.</p>
+            <p class="companion-highlight">Теперь можно легко найти<br>единомышленников!</p>
+            <div class="companion-profile">
+              <img src="https://via.placeholder.com/270x270" alt="" class="companion-avatar">
+              <p class="companion-name">Таня Фирсова</p>
+              <p class="companion-interests">#ЗОЖ #ПП #Фитнес #пляж<br>#авокадо #смузи</p>
+            </div>
+            <div class="companion-profile">
+              <img src="https://via.placeholder.com/270x270" alt="" class="companion-avatar">
+              <p class="companion-name">Петя Демин</p>
+              <p class="companion-interests">#бургер #бар #футбол<br>#концерт #крафт</p>
+            </div>
+            <a class="button">Показать всех</a>
+          </div>
+        </section>
+        <section class="user-profile">
+          <div class="user-profile-wrapper">
+            <h2 class="user-profile-title title">Добавьте<br>свой профиль</h2>
+            <ul class="user-profile-list">
+              <ol class="user-profile-item">
+                <p class="user-profile-service">Базовое размещение</p>
+                <p class="user-profile-price">Бесплатно</p>
+              </ol>
+              <ol class="user-profile-item">
+                <p class="user-profile-service">Вывод на первых позициях</p>
+                <p class="user-profile-price">99 руб./мес</p>
+              </ol>
+              <ol class="user-profile-item">
+                <p class="user-profile-service">Кастомный цвет карточки</p>
+                <p class="user-profile-price">59 руб./мес</p>
+              </ol>
+            </ul>
+            <a href="">Показать тарифы для бизнеса</a>
+          </div>
+        </section>
+        <section class="registration">
+          <div class="registration-wrapper">
+            <h2 class="visually-hidden">Раздел регистрации и атворизации</h2>
+            <p class="regustration-title title">Заинтересовались?</p>
+            <p class="registration-description">Зарегистрируйтесь,<br>это быстро и бесплатно!<br>Уже зарегистрированы? Тогда<br>
+            скорее <a>авторизуйтесь</a>.</p>
+            <label><input type="email" name="email">e-mail</label>
+            <div class="registration-contacts">
+              <p>Остались вопросы?<br>Мы с радостью на них ответим!</p>
+              <ul class="registration-contacts__list">
+                <li class="registration-contacts-item"><a href="tel:8 800 555-86-28">8 800 555-86-28</a></li>
+                <li class="registration-contacts-item"><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></li>
+              </ul>
+            </div>
+            </div>
+           </section>
+           <section class="adress">
+             <h2 class="visually-hidden">Как нас найти</h2>
+             <div class="adress-wrapper">
+               <address>ул. Большая<br>Конюшенная, 19/8</address>
+               <a class="button">Проложить маршрут</a>
+             </div>
+            </section>
+            </main>
+            <footer class="page-footer">
+              <div class="page-footer-wrapper">
+              <a><img src="./img/logo_mobile.svg" width="96" height="14.76"></a>
+              <ul class="page-footer__social">
+                <li class="page-footer__social-item"><a>facebook</a></li>
+                <li class="page-footer__social-item"><a>vk</a></li>
+                <li class="page-footer__social-item"><a>Instagram</a></li>
+              </ul>
+              <div class="copyright">
+                <p>Разработано</p>
+                <a href="https://htmlacademy.ru/"><img src="./img/htmlacademy.svg" width="27" height="33.3"></a>
+              </div>
+              </div>
+              </footer>
   </body>
 </html>
